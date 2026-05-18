@@ -76,6 +76,3 @@ otp_instance = parse_uri(uri)
 print(f"Issuer: {otp_instance.issuer}")
 print(f"Current Code: {otp_instance.generate()}")
 ```
-
-## License
-MIT
